@@ -1,0 +1,85 @@
+
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap starter</title>
+    <link rel="stylesheet" href="assets/css/app.css">
+  </head>
+  <body>
+
+    <section class="pb-book">
+    
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-4">
+                    <button class="pb-add btn btn-default open-modal" data-modal="#new">Add new <i
+                            class="glyphicon glyphicon-plus"></i></button>
+                    <div class="pb-info" id="new">
+                        <div class="pb-info__main">
+                            <div class="pb-image pull-left">
+                                <img src="http://www.rulit.me/data/user/avatars/tararam_34330.jpg">
+                                <input class="pb-url" type="text" name="text"
+                                       placeholder="Enter the address">
+                            </div>
+                            <input class="pb-name" type="text" name="name" placeholder="Full name">
+                            <div class="pb-phones">
+                                <div class="row">
+                                    <div class="col-xs-6 pb-phones__list">
+                                        <input type="tel" name="tel" placeholder="Phone">
+                                    </div>
+                                    <div class="col-xs-1">
+                                        <button class="btn btn-default pb-phones__add">
+                                            <i class="glyphicon glyphicon-plus"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pb-info__additional">
+                            <div class="pb-emails">
+                                <div class="row">
+                                    <div class="col-xs-6 pb-emails__list">
+                                        <input type="email" name="email" placeholder="Email">
+                                    </div>
+                                    <div class="col-xs-6 pb-emails__button">
+                                        <button class="btn btn-default pb-emails__add">
+                                            <i class="glyphicon glyphicon-plus"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <input type="text" name="text" placeholder="Company">
+                            <input type="text" name="text" placeholder="Position">
+                            <input type="text" name="address-line-1" placeholder="Address">
+                            <input type="text" name="address-line-2" placeholder="Address">
+                        </div>
+                        <button class="pb-save btn btn-default pull-right">
+                            Save
+                            <i class="glyphicon glyphicon-ok"></i>
+                        </button>
+                        <button class="pb-close"><i class="glyphicon glyphicon-remove"></i></button>
+                    </div>
+                </div>
+                <div class="col-xs-8">
+                    <div class="pb-search">
+                        <input type="search" name="text" placeholder="Search">
+                        <i class="glyphicon glyphicon-search"></i>
+                    </div>
+                    <div class="pb-contact-list">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+    
+    
+
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
